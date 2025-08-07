@@ -70,10 +70,10 @@ export const ContactSection = () => {
                 </div>
               </div>
             </div>
-            <div className="pt-8">
+            {/* <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex justify-center space-x-4">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/mutsa-taringa-b8857723b/" target="_blank">
                   <Linkedin></Linkedin>
                 </a>
                 <a href="#" target="_blank">
@@ -86,7 +86,7 @@ export const ContactSection = () => {
                   <Twitch></Twitch>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="bg-card p-8 rounded-lg shadow-xs">
