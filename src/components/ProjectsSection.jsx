@@ -89,7 +89,7 @@ export const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a
             href="#"
             target="_blank"
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
               <ArrowRight size={16}></ArrowRight>
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
