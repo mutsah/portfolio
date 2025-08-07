@@ -16,7 +16,7 @@ const projects = [
     title: "Native Markets",
     description:
       "Interactive admin dashboard with data visualization and filtering capabilities.",
-    image: "/assets/img/Project2.png",
+    image: "/assets/img/dashboard.png",
     tags: ["React", "TailwindCSS", "Node.js Express"],
     demoUrl: "#",
     githubUrl: "#",
