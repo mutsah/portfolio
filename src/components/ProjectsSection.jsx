@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Tsvakai",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full-featured e-commerce platform with payment processing.",
     image: "/assets/img/project1.png",
     tags: ["React", "TailwindCSS", "SpringBoot"],
     demoUrl: "#",
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Native Markets ",
+    title: "Native Markets",
     description:
       "Interactive admin dashboard with data visualization and filtering capabilities.",
     image: "/assets/img/Project2.png",
@@ -23,9 +23,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "FindIT",
+    title: "DineHub",
     description: "A full stake restaurant reservation using React.",
-    image: "/assets/img/Project3.png",
+    image: "/assets/img/project1.png",
     tags: ["React", "TailwindCSS", "TypeScript"],
     demoUrl: "#",
     githubUrl: "#",
@@ -64,11 +64,11 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+                {/* <h3 className="text-xl font-semibold mb-1">{project.title}</h3> */}
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
-                <div className="flex justify-center items-center space-x-3">
+                {/* <div className="flex justify-center items-center space-x-3">
                   <a
                     href={project.demoUrl}
                     target="_blank"
@@ -83,7 +83,7 @@ export const ProjectsSection = () => {
                   >
                     <Github size={20}></Github>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
