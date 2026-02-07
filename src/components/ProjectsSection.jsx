@@ -87,18 +87,18 @@ export const ProjectsSection = () => {
           ))}
         </div>
 
-        {/* <div className="text-center mt-12">
+        <div className="text-center mt-12">
           <a
-            href="#"
+            href="https://github.com/mutsah?tab=repositories"
             target="_blank"
+            rel="noopener noreferrer"
             className="cosmic-button flex items-center w-fit mx-auto gap-2"
           >
-            <span>Check My Github</span>
-            <span>
-              <ArrowRight size={16}></ArrowRight>
-            </span>
+            <Github size={20} />
+            <span>View More Projects on GitHub</span>
+            <ArrowRight size={16} />
           </a>
-        </div> */}
+        </div>
       </div>
     </section>
   );
