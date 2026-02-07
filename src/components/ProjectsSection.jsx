@@ -1,34 +1,34 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
     id: 1,
-    title: "Tsvakai",
+    title: 'Wayasend',
     description:
-      "Full-featured e-commerce platform with payment processing.",
-    image: "/assets/img/project1.png",
-    tags: ["React", "TailwindCSS", "SpringBoot"],
-    demoUrl: "#",
-    githubUrl: "#",
+      'Full-featured courier managemnt and booking platform with payment processing and subscriptions.',
+    image: '/assets/img/Wayasend.png',
+    tags: ['React', 'TailwindCSS'],
+    demoUrl: 'https://portal.waya-send.com/',
+    githubUrl: '#',
   },
   {
     id: 2,
-    title: "Native Markets",
+    title: 'Signalist',
     description:
-      "Interactive admin dashboard with data visualization and filtering capabilities.",
-    image: "/assets/img/dashboard.png",
-    tags: ["React", "TailwindCSS", "Node.js Express"],
-    demoUrl: "#",
-    githubUrl: "#",
+      'Signalist - Track real-time stock prices, get personalized alerts and explore detailed company insights.',
+    image: '/assets/img/dashboard.png',
+    tags: ['Next.js', 'TailwindCSS', 'TypeScript'],
+    demoUrl: '#',
+    githubUrl: '#',
   },
   {
     id: 3,
-    title: "DineHub",
-    description: "A full stake restaurant reservation using React.",
-    image: "/assets/img/project1.png",
-    tags: ["React", "TailwindCSS", "TypeScript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: 'DineHub',
+    description: 'A full stake restaurant reservation using React.',
+    image: '/assets/img/project1.png',
+    tags: ['React', 'TailwindCSS', 'TypeScript'],
+    demoUrl: '#',
+    githubUrl: '#',
   },
 ];
 
@@ -41,8 +41,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. Each project was carefully crafted with attention to
+          detail, performance, and user experience.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -65,9 +65,7 @@ export const ProjectsSection = () => {
                 </div>
 
                 {/* <h3 className="text-xl font-semibold mb-1">{project.title}</h3> */}
-                <p className="text-muted-foreground text-sm mb-4">
-                  {project.description}
-                </p>
+                <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                 {/* <div className="flex justify-center items-center space-x-3">
                   <a
                     href={project.demoUrl}
