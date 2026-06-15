@@ -1,4 +1,4 @@
-import ContactForm from './ContactForm'
+import ContactForm from './ContactForm';
 
 export default function ContactSection() {
   return (
@@ -12,10 +12,8 @@ export default function ContactSection() {
       <div className="contact-grid">
         <div className="reveal">
           <p className="contact-intro">
-            I&apos;m currently{' '}
-            <strong style={{ color: 'var(--accent)' }}>available for remote freelance work</strong>{' '}
-            and long-term contracts. Whether you have a project in mind or just want to connect —
-            my inbox is always open.
+            Whether you have a project in mind or just want to connect — my
+            inbox is always open.
           </p>
           <div className="contact-links">
             <a href="mailto:taringamutsah@gmail.com" className="contact-link">
@@ -27,7 +25,7 @@ export default function ContactSection() {
               <span className="contact-arrow">›</span>
             </a>
             <a
-              href="https://linkedin.com/in/mutsahtaringa"
+              href="https://www.linkedin.com/in/mutsa-taringa-b8857723b/"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -35,12 +33,20 @@ export default function ContactSection() {
               <div className="contact-link-icon">💼</div>
               <div className="contact-link-info">
                 <div className="contact-link-label">LinkedIn</div>
-                <div className="contact-link-val">linkedin.com/in/mutsahtaringa</div>
+                <div className="contact-link-val">linkedin.com/in/mutsa-taringa-b8857723b</div>
+              </div>
+              <span className="contact-arrow">›</span>
+            </a>
+            <a href="tel:+263785094296" className="contact-link">
+              <div className="contact-link-icon">📞</div>
+              <div className="contact-link-info">
+                <div className="contact-link-label">Phone</div>
+                <div className="contact-link-val">+263 785 094 296</div>
               </div>
               <span className="contact-arrow">›</span>
             </a>
             <a
-              href="https://github.com/mutsahtaringa"
+              href="https://github.com/mutsah"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,20 +54,7 @@ export default function ContactSection() {
               <div className="contact-link-icon">🐙</div>
               <div className="contact-link-info">
                 <div className="contact-link-label">GitHub</div>
-                <div className="contact-link-val">github.com/mutsahtaringa</div>
-              </div>
-              <span className="contact-arrow">›</span>
-            </a>
-            <a
-              href="https://upwork.com/freelancers/mutsahtaringa"
-              className="contact-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="contact-link-icon">💬</div>
-              <div className="contact-link-info">
-                <div className="contact-link-label">Upwork</div>
-                <div className="contact-link-val">upwork.com/freelancers/mutsahtaringa</div>
+                <div className="contact-link-val">github.com/mutsah</div>
               </div>
               <span className="contact-arrow">›</span>
             </a>
@@ -72,5 +65,5 @@ export default function ContactSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

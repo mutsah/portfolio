@@ -19,10 +19,7 @@ export default function AboutSection() {
             <strong>Next.js and React</strong> to building robust, secure backend APIs with{' '}
             <strong>NestJS and PostgreSQL</strong>.
           </p>
-          <p>
-            Currently working toward <strong>remote freelance and contract roles</strong>, helping
-            startups and businesses ship faster with quality code.
-          </p>
+
           <div className="about-details">
             <div className="about-detail">
               <span className="about-detail-label">Location</span>
@@ -30,17 +27,7 @@ export default function AboutSection() {
             </div>
             <div className="about-detail">
               <span className="about-detail-label">Focus</span>
-              <span className="about-detail-val">Full Stack / Remote</span>
-            </div>
-            <div className="about-detail">
-              <span className="about-detail-label">Rate</span>
-              <span className="about-detail-val">$25–35 / hour</span>
-            </div>
-            <div className="about-detail">
-              <span className="about-detail-label">Status</span>
-              <span className="about-detail-val" style={{ color: 'var(--accent)' }}>
-                ● Available for Work
-              </span>
+              <span className="about-detail-val">Full Stack</span>
             </div>
           </div>
         </div>
@@ -48,6 +35,13 @@ export default function AboutSection() {
         <div className="about-card reveal">
           <div className="about-card-title">// Experience &amp; Education</div>
           <div className="about-items">
+            <div className="about-item">
+              <div className="about-item-icon">📜</div>
+              <div className="about-item-info">
+                <h4>AWS Cloud Practitioner</h4>
+                <p>Amazon Web Services · 2026</p>
+              </div>
+            </div>
             <div className="about-item">
               <div className="about-item-icon">💼</div>
               <div className="about-item-info">
@@ -62,16 +56,9 @@ export default function AboutSection() {
                 <p>University of Zimbabwe · 2017 – 2021</p>
               </div>
             </div>
-            <div className="about-item">
-              <div className="about-item-icon">📜</div>
-              <div className="about-item-info">
-                <h4>AWS Cloud Practitioner</h4>
-                <p>Amazon Web Services · 2023</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -5,17 +5,17 @@ const skillGroups = [
   },
   {
     title: 'Backend',
-    skills: ['NestJS', 'Node.js', 'REST APIs', 'JWT Auth', 'GraphQL'],
+    skills: ['NestJS', 'Node.js', 'REST APIs', 'JWT Auth'],
   },
   {
     title: 'Database',
-    skills: ['PostgreSQL', 'TypeORM', 'MongoDB', 'Redis', 'Prisma'],
+    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma'],
   },
   {
     title: 'DevOps & Tools',
-    skills: ['Docker', 'Git/GitHub', 'Railway', 'Vercel', 'Linux'],
+    skills: ['Docker', 'Git/GitHub', 'Render'],
   },
-]
+];
 
 export default function SkillsSection() {
   return (
@@ -27,11 +27,11 @@ export default function SkillsSection() {
         </h2>
       </div>
       <div className="skills-groups">
-        {skillGroups.map(group => (
+        {skillGroups.map((group) => (
           <div className="skill-group reveal" key={group.title}>
             <div className="skill-group-title">{group.title}</div>
             <div className="skill-tags">
-              {group.skills.map(skill => (
+              {group.skills.map((skill) => (
                 <span className="skill-tag" key={skill}>
                   {skill}
                 </span>
@@ -41,5 +41,5 @@ export default function SkillsSection() {
         ))}
       </div>
     </section>
-  )
+  );
 }
